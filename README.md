@@ -35,21 +35,6 @@ Most Arduino boards include a built-in LED connected to a digital pin. The `LED_
 | Breadboard | 1 | Optional but recommended |
 | Jumper Wires | 2-3 | Male-to-Male |
 
-#### 🔌 Wiring Diagram
-Digital Pin 13 (LED_BUILTIN) → 220Ω Resistor → LED Anode (Long Leg)
-GND Pin → LED Cathode (Short Leg)
-
-Visual Representation:
-ARDUINO UNO        BREADBOARD
-────────────        ──────────
-D13 ────────┐       │   │   │
-            │       │   │   │
-GND ────────┼───────┤ R │   │
-            │       │   │   │
-            └───────┤   │ LED│
-                    │   │   │
-					
-
 #### ⚡ Step-by-Step Wiring Instructions
 1. **Identify LED polarity**: Long leg = Anode (+), Short leg = Cathode (-)
 2. **Connect resistor**: One end to Arduino digital pin 13 (LED_BUILTIN)
@@ -123,3 +108,4 @@ void loop() {
   delay(1000);                       // Wait for 1 second
 }
 ```
+
